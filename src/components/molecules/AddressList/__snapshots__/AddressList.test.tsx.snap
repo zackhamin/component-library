@@ -84,16 +84,16 @@ exports[`AddressList renders card option correctly 1`] = `
         class="details"
       >
         <p>
-          John
+          Zack
            
-          Doe
+          Amin
           ,
            
-          11 High Road
+          22 some street
           , 
-          London
+          Never land
           , 
-          SW1 2AB
+          DS2 3CD
           , 
           GB
           <br />
@@ -112,18 +112,18 @@ exports[`AddressList renders card option correctly 1`] = `
         class="details"
       >
         <p>
-          John
+          Zack
            
-          Doe
+          Amin
           ,
            
           12 High Road
           , 
           Flat 1
           , 
-          London
+          Never land
           , 
-          SW1 2AB
+          DS2 3CD
           , 
           GB
           <br />

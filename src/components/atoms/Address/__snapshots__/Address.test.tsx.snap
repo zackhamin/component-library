@@ -2,15 +2,15 @@
 
 exports[`Address renders address with name correctly 1`] = `
 <p>
-  John
+  Zack
    
-  Doe
+  Amin
   <br />
-  11 High Road
+  22 some street
   <br />
-  London
+  Never land
   <br />
-  SW1 2AB
+  DS2 3CD
   <br />
   GB
 </p>
@@ -18,11 +18,11 @@ exports[`Address renders address with name correctly 1`] = `
 
 exports[`Address renders correctly 1`] = `
 <p>
-  11 High Road
+  22 some street
   , 
-  London
+  Never land
   , 
-  SW1 2AB
+  DS2 3CD
   , 
   GB
   <br />
@@ -31,11 +31,11 @@ exports[`Address renders correctly 1`] = `
 
 exports[`Address renders multi line address correctly 1`] = `
 <p>
-  11 High Road
+  22 some street
   <br />
-  London
+  Never land
   <br />
-  SW1 2AB
+  DS2 3CD
   <br />
   GB
 </p>
@@ -43,19 +43,19 @@ exports[`Address renders multi line address correctly 1`] = `
 
 exports[`Address renders multi line address with mobile number correctly 1`] = `
 <p>
-  John
+  Zack
    
-  Doe
+  Amin
   <br />
-  11 High Road
+  22 some street
   <br />
-  London
+  Never land
   <br />
-  SW1 2AB
+  DS2 3CD
   <br />
   GB
   <br />
   <br />
-  07712345678
+  0789892323
 </p>
 `;

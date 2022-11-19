@@ -1,6 +1,5 @@
 import { Image, ImageProps } from './Image';
 import { Meta, Story } from '@storybook/react';
-import TestSvg from 'Atoms/Image/assets/TestSvg';
 
 export default {
 	title: 'atoms/Image',
@@ -37,7 +36,7 @@ SvgImage.args = {
 		background: '#00594c',
 	},
 	block: false,
-	children: TestSvg,
+	//children: TestSvg,
 } as ImageProps<'svg'>;
 
 export const ObjectImage = Template.bind({});

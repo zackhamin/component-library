@@ -12,5 +12,5 @@ BoxStory.storyName = 'Box';
 BoxStory.args = {
 	backgroundColor: colors.darkGrey,
 	padding: '2.4rem',
-	children: 'I am a box',
+	children: 'A box to put things in',
 };

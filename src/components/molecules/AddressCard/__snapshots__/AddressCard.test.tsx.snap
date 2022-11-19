@@ -156,15 +156,15 @@ exports[`AddressCard renders correctly 1`] = `
 >
   <div>
     <p>
-      John
+      Zack
        
-      Doe
+      Amin
       <br />
-      11 High Road
+      22 some street
       <br />
-      London
+      Never land
       <br />
-      SW1 2AB
+      DS2 3CD
       <br />
       GB
     </p>

@@ -3,7 +3,7 @@ import { Heading } from 'Atoms/Heading';
 import { Image } from 'Atoms/Image';
 import { Link } from 'Atoms/Link';
 import { Select } from 'Atoms/Select';
-import TestSvg from 'Atoms/Image/assets/TestSvg';
+//import TestSvg from 'Atoms/Image/assets/TestSvg';
 import { Text } from 'Atoms/Text';
 import { Card, CardProps } from './Card';
 import { Meta, Story } from '@storybook/react';
@@ -98,12 +98,12 @@ CustomImage.args = {
 				background: '#00594c',
 			}}
 		>
-			{TestSvg}
+			{123}
 		</Image>
 	),
 	children: (
 		<Link href={'https://www.hollandandbarrett.com/'} target={'_blank'} block>
-			<Button block>Visit HnB</Button>
+			<Button block>Visit</Button>
 		</Link>
 	),
 };

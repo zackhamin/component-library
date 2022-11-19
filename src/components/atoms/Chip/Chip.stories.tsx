@@ -1,4 +1,4 @@
-import { Check } from 'Atoms/Icons';
+import { Chevron } from 'Atoms/Icons';
 import { Story } from '@storybook/react';
 
 import { Chip, PolymorphicChipProps } from './Chip';
@@ -43,19 +43,19 @@ Default.args = {
 
 export const DefaultIcon = Template.bind({});
 DefaultIcon.args = {
-	icon: <Check />,
-	children: '8:00',
+	icon: <Chevron />,
+	children: '12:00',
 };
 
 export const Topic = Template.bind({});
 Topic.args = {
 	variant: 'topic',
-	children: 'Clean Beauty',
+	children: 'help section',
 };
 
 export const TopicIcon = Template.bind({});
 TopicIcon.args = {
 	variant: 'topic',
-	icon: <Check />,
-	children: 'Clean Beauty',
+	icon: <Chevron />,
+	children: 'help section',
 };
