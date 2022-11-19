@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormError renders correctly 1`] = `
+<div>
+  <div
+    aria-live="polite"
+    data-testid="input-error"
+    id="error--feedback"
+  />
+</div>
+`;

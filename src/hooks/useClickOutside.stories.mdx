@@ -1,0 +1,19 @@
+<!-- useClickOutside.stories.mdx -->
+
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Hooks/useClickOutside" />
+
+# useClickOutside
+
+The `useClickOutside` hook accepts two arguments: `ref` which is a ref to the element outside of which you want to register the click and a `callback` which is a function that will be called when the click happens.
+
+```jsx
+const ref = useRef(null);
+
+useClickOutside(ref, () => {
+	// event handler
+});
+
+return <div ref={ref}>Click outside of me to trigger the event handler</div>;
+```

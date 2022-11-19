@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover renders correctly 1`] = `
+.c0 {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  border: 1px solid #EEEEEF;
+  border-radius: 4px;
+  margin-top: 4px;
+  box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px;
+  background: #ffffff;
+}
+
+<div>
+  <span
+    data-focus-scope-start="true"
+    hidden=""
+  />
+  <div
+    class="c0"
+  >
+    <p>
+      Popover Content
+    </p>
+    <div
+      style="border: 0px; clip-path: inset(50%); height: 1px; margin: 0px -1px -1px 0px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+    >
+      <button
+        aria-label="Dismiss"
+        id="react-aria-generated-id"
+        tabindex="-1"
+      />
+    </div>
+  </div>
+  <span
+    data-focus-scope-end="true"
+    hidden=""
+  />
+</div>
+`;

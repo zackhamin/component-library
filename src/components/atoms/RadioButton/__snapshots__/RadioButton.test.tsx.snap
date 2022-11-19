@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton renders  correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.c3 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-right: 1.3rem;
+}
+
+.c1 {
+  background-color: white;
+  cursor: pointer;
+  -webkit-appearance: unset;
+  -moz-appearance: unset;
+  appearance: unset;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.c1:checked {
+  border: 1px solid #00594C;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2.8' fill='%2300594C'/%3e%3c/svg%3e");
+}
+
+.c1 + .c2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      class="c1"
+      id="opt1"
+      name="Radio1"
+      type="radio"
+      value="opt1"
+    />
+    <label
+      class="c2 c3"
+      for="opt1"
+    >
+      label1
+    </label>
+  </div>
+</div>
+`;

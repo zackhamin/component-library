@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feedback renders correctly 1`] = `
+.c0 {
+  color: #ffffff;
+  background: #00594C;
+  display: block;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0.4rem 1.6rem;
+  position: absolute;
+  right: -3.2rem;
+  left: auto;
+  top: 50vh;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+<div>
+  <a
+    class="c0"
+    color="#ffffff"
+    href="https://feedback.form"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Feedback
+  </a>
+</div>
+`;

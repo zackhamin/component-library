@@ -1,0 +1,19 @@
+{
+	"directory": [
+		"./src/components/atoms",
+		"./src/components/molecules",
+		"./src/components/organisms",
+		"./src/hooks",
+		"./src/utils",
+		"./src/styles"
+	],
+	"include": [".ts", ".tsx"],
+	"exclude": [
+		"index.ts$",
+		".stories.ts$",
+		".test.ts$",
+		".styles.ts$",
+		".style.ts$",
+		".types.ts$"
+	]
+}

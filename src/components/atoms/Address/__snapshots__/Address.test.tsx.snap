@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Address renders address with name correctly 1`] = `
+<p>
+  John
+   
+  Doe
+  <br />
+  11 High Road
+  <br />
+  London
+  <br />
+  SW1 2AB
+  <br />
+  GB
+</p>
+`;
+
+exports[`Address renders correctly 1`] = `
+<p>
+  11 High Road
+  , 
+  London
+  , 
+  SW1 2AB
+  , 
+  GB
+  <br />
+</p>
+`;
+
+exports[`Address renders multi line address correctly 1`] = `
+<p>
+  11 High Road
+  <br />
+  London
+  <br />
+  SW1 2AB
+  <br />
+  GB
+</p>
+`;
+
+exports[`Address renders multi line address with mobile number correctly 1`] = `
+<p>
+  John
+   
+  Doe
+  <br />
+  11 High Road
+  <br />
+  London
+  <br />
+  SW1 2AB
+  <br />
+  GB
+  <br />
+  <br />
+  07712345678
+</p>
+`;

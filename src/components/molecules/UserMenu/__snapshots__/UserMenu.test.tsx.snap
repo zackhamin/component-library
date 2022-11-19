@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserMenu renders correctly 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.c1 {
+  display: inline;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #F2F9F8;
+  padding: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.c2:hover,
+.c2:focus {
+  background: #E6F3F2;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <button
+      aria-controls="user"
+      aria-expanded="false"
+      class="c2 user-icon"
+      id="user-trigger"
+    >
+      <svg
+        aria-hidden="true"
+        color="#00594C"
+        fill="none"
+        focusable="false"
+        font-size="2.2rem"
+        height="1em"
+        viewBox="0 0 22 26"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.357 15.357H8.643A8.643 8.643 0 0 0 0 24c0 .868.704 1.571 1.571 1.571H20.43c.867 0 1.571-.703 1.571-1.571a8.643 8.643 0 0 0-8.643-8.643ZM2.406 23.214a6.292 6.292 0 0 1 6.237-5.5h4.714c3.2 0 5.849 2.404 6.237 5.5H2.406ZM11 13A6.286 6.286 0 1 0 11 .428 6.286 6.286 0 0 0 11 13Zm0-10.214a3.933 3.933 0 0 1 3.929 3.928A3.933 3.933 0 0 1 11 10.643a3.934 3.934 0 0 1-3.929-3.929A3.933 3.933 0 0 1 11 2.786Z"
+          fill="currentColor"
+        />
+      </svg>
+    </button>
+  </span>
+</div>
+`;

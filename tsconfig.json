@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es5",
+		"outDir": "lib",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"declaration": true,
+		"declarationDir": "lib",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
+		"paths": {
+			// Components
+			"Atoms/*": ["./src/components/atoms/*"],
+			"Molecules/*": ["./src/components/molecules/*"],
+			"Organisms/*": ["./src/components/organisms/*"],
+			// Other folders
+			"@Types": ["./@types/"],
+			"@Types/*": ["./@types/*"],
+			"Hooks/*": ["./src/hooks/*"],
+			"MockData": ["./src/mocks"],
+			"MockData/*": ["./src/mocks/*"],
+			"Utils/*": ["./src/utils/*"],
+			"Theme": ["./src/theme/"],
+			"Theme/*": ["./src/theme/*"],
+			"Styles": ["./src/styles/"],
+			"Icons": ["./src/components/icons/"]
+		}
+	},
+
+	"include": ["src", "*.d.ts"],
+	"exclude": ["node_modules", "lib"]
+}

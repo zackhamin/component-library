@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion renders without errors and matches snapshot 1`] = `
+.c0 {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.c0:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.c0:focus-visible {
+  outline: 0.125rem solid #212529;
+}
+
+.c0 h1 {
+  color: #333;
+  font-size: 3.2rem;
+  line-height: 1.75;
+  margin: 0 0 1rem;
+}
+
+.c0 h2 {
+  color: #00594c;
+  font-size: 2.4rem;
+  line-height: 1.75;
+  margin: 0 0 1rem;
+}
+
+.c0 p {
+  font-size: 1.6rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: Transparent;
+  padding: 0.4rem 1rem;
+  border: 0;
+  border-bottom: 1px solid #EEEEEF;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0.125rem;
+}
+
+.c1 h2 {
+  font-size: 2.4rem;
+  color: #333333;
+}
+
+.c1 h2 span {
+  color: #585858;
+}
+
+.c2 {
+  width: 14px;
+  height: 8px;
+  margin-left: 0.5rem;
+  -webkit-filter: #00594C;
+  filter: #00594C;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.c3 {
+  height: 0;
+  overflow: auto;
+  visibility: hidden;
+  padding: 0 1rem;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c3::-webkit-scrollbar {
+  display: none;
+}
+
+<div
+  class="c0"
+>
+  <div
+    aria-expanded="false"
+    class="c1"
+    role="button"
+    tabindex="0"
+  >
+    <h2>
+      Accordion title
+      <span />
+    </h2>
+    <div
+      class="c2"
+    >
+      <svg
+        aria-hidden="true"
+        data-testid="CHEVRON"
+        focusable="false"
+        font-size="1.4rem"
+        height="1em"
+        viewBox="0 0 14 8"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M.293.293a1 1 0 0 1 1.414 0L7 5.586 12.293.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 0-1.414Z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    class="c3"
+  >
+    Accordion content
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+<!-- useOnKeyDown.stories.mdx -->
+
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Hooks/useOnKeyDown" />
+
+# useOnKeyDown
+
+The `useOnKeyDown` hook accepts two arguments: `key` which is the name of the key you want to listen to and a callback function that will be called when the key is pressed.
+
+```jsx
+useOnKeyDown('Escape', () => {
+	console.log('Escape key pressed');
+});
+```

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLabel renders correctly 1`] = `
+.c0 {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.c0.variant-body {
+  font-size: 1.4rem;
+}
+
+.c0.variant-heading {
+  font-size: 1.8rem;
+  font-family: BrandonGrotesque-Bold,Arial,Helvetica,sans-serif;
+}
+
+<div>
+  <label
+    class="c0 variant-heading"
+    for="test"
+  >
+    Label
+  </label>
+</div>
+`;

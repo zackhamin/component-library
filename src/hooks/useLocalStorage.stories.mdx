@@ -1,0 +1,22 @@
+<!-- useLocalStorage.stories.mdx -->
+
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Hooks/useLocalStorage" />
+
+# useLocalStorage
+
+The `useLocalStorage` hook follows the same API as React's native `useState` hook:
+
+```jsx
+const [value, setValue] = useLocalStorage('cookieName', 'defaultValue');
+
+return (
+	<div>
+		<p>Local storage value: {value}</p>
+		<button onClick={() => setValue('newValue')}>
+			Set local storage value
+		</button>
+	</div>
+);
+```

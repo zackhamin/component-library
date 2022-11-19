@@ -1,0 +1,64 @@
+{
+	"gb": {
+		"locale": "en-GB",
+		"currency": "GBP",
+		"localeConfiguration": {
+			"configuration": {
+				"timeZone": "Europe/London"
+			},
+			"currencies": {
+				"enabled": {
+					"GBP": true
+				}
+			},
+			"languages": {
+				"enabled": {
+					"en": true
+				},
+				"translations": {
+					"en": {
+						"calendar_day.today": "Today",
+						"countries.austria": "Austria",
+						"countries.australia": "Australia",
+						"countries.belgium": "Belgium",
+						"countries.bulgaria": "Bulgaria",
+						"countries.czech_republic": "Czechia",
+						"countries.germany": "Germany",
+						"countries.denmark": "Denmark",
+						"countries.estonia": "Estonia",
+						"countries.spain": "Spain",
+						"countries.finland": "Finland",
+						"countries.france": "France",
+						"countries.united_kingdom": "United Kingdom",
+						"countries.gibraltar": "Gibraltar",
+						"countries.greece": "Greece",
+						"countries.croatia": "Croatia",
+						"countries.hungary": "Hungary",
+						"countries.ireland": "Ireland",
+						"countries.iceland": "Iceland",
+						"countries.italy": "Italy",
+						"countries.liechtenstein": "Liechtenstein",
+						"countries.luxembourg": "Luxembourg",
+						"countries.latvia": "Latvia",
+						"countries.malta": "Malta",
+						"countries.netherlands": "The Netherlands",
+						"countries.poland": "Poland",
+						"countries.portugal": "Portugal",
+						"countries.romania": "Romania",
+						"countries.sweden": "Sweden",
+						"countries.singapore": "Singapore",
+						"countries.slovenia": "Slovenia",
+						"countries.slovakia": "Slovakia",
+						"countries.united_states": "United States of America",
+						"general.cancel": "Cancel",
+						"general.default_address": "Default Address",
+						"general.edit": "Edit",
+						"general.remove": "Remove",
+						"general.set_default": "Set as default"
+					}
+				},
+				"configuration": {}
+			}
+		}
+	}
+}

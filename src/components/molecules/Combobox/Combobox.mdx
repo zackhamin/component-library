@@ -1,0 +1,69 @@
+# Combobox
+
+This component is a combination of a text input and a dropdown, allowing users to filter a list of options to match a specific query.
+
+It is particularly useful in cases where there are way too many option that would make a select difficult to use or for when there are more complex requirements that a select wouldn't satisfy.
+
+The Combobox component is built on top of React Aria's implementation to ensure that all accessibility and edge cases are handled for us. You should not need to import anything directly from React Aria or associated libraries when using the Combobox component. All required components should be importable from our component library directly.
+
+Please refer to the documention provided by React Aria for additional examples and functionality provided.
+
+# How to use
+
+## Non-Async
+
+The Combobox can be used in the following way when dealing with non-async data.
+
+```
+    import { ComboBox, Item } from 'cc-component-library';
+
+    <ComboBox label='Custom label'>
+        <Item key="red panda">Red Panda</Item>
+        <Item key="cat">Cat</Item>
+        <Item key="dog">Dog</Item>
+        <Item key="aardvark">Aardvark</Item>
+        <Item key="kangaroo">Kangaroo</Item>
+        <Item key="snake">Snake</Item>
+	</ComboBox>
+```
+
+## Async
+
+You can use the combobox with async data using the useAsyncList hook
+
+```
+import { ComboBox, Item, useAsyncList } from 'cc-component-library';
+
+const StarWars = () => {
+	const results = useAsyncList<{ name: string }>({
+		async load({ signal, filterText }) {
+			const res = await fetch(
+				`https://swapi.dev/api/people/?search=${filterText}`,
+				{ signal }
+			);
+
+			const json = await res.json();
+
+			return {
+				items: json.results,
+				cursor: json.next,
+			};
+		},
+	});
+
+	return (
+		<>
+			<ComboBox
+				label="Star Wars Character Search"
+				items={results.items}
+				inputValue={results.filterText}
+				onInputChange={results.setFilterText}
+				loadingState={results.loadingState}
+				onLoadMore={results.loadMore}
+			>
+				{(item) => <Item key={item.name}>{item.name}</Item>}
+			</ComboBox>
+		</>
+	);
+};
+```

@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders correctly 1`] = `
+.c0 {
+  font-size: 10px;
+  margin: 5rem auto;
+  text-indent: -9999em;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  background: #00594C;
+  background: linear-gradient( to right, #00594C 10%, rgba(255,255,255,0) 42% );
+  position: relative;
+  -webkit-animation: load 1.4s infinite linear;
+  animation: load 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.c0:before {
+  width: 50%;
+  height: 50%;
+  background: #00594C;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+
+.c0:after {
+  background: #ffffff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+<div>
+  <div
+    class="c0"
+    color="#00594C"
+  >
+    Loading
+  </div>
+</div>
+`;

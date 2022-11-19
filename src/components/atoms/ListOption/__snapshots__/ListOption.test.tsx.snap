@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListOption renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  border: 1px solid #EEEEEF;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+.c0.active {
+  border: 1px solid #7FC1BA;
+  background: rgba(3,134,120,0.1);
+}
+
+.c0.active .radio {
+  border: 1px solid #00594C;
+}
+
+.c0.active .radio > span {
+  background: #00594C;
+}
+
+.c0 .details {
+  margin-left: 2.6rem;
+}
+
+.c0 .radio {
+  display: block;
+  border: 1px solid #bebebe;
+  border-radius: 50%;
+}
+
+.c0 .radio > span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+<div>
+  <li
+    class="c0"
+  >
+    <div
+      class="radio"
+    >
+      <span />
+    </div>
+    <div
+      class="details"
+    >
+      Some content
+    </div>
+  </li>
+</div>
+`;

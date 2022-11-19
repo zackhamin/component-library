@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip renders correctly 1`] = `
+.c0 {
+  background-color: white;
+  border: none;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  font-family: BrandonGrotesque-Bold,Arial,Helvetica,sans-serif;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:focus-visible {
+  outline: solid 2px #00594C;
+  outline-offset: 4px;
+}
+
+.c0.variant-default {
+  padding: 0.8rem;
+  box-shadow: 0px 2px 6px rgba(51,51,51,0.16);
+  border-radius: 0.8rem;
+  color: #00594C;
+}
+
+.c0.variant-default .icon-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.c0.variant-default:hover {
+  background-color: #eff5f3;
+  color: #00594C;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0.variant-topic {
+  padding: 1.2rem 1.6rem;
+  border-radius: 3rem;
+  background-color: #F6F6F6;
+  color: #333333;
+}
+
+.c0.variant-topic .icon-wrapper {
+  width: 3.6rem;
+  height: 3.6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #BFE0DC;
+  margin-right: 0.6rem;
+}
+
+.c0.variant-topic:hover {
+  color: #333333;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div>
+  <button
+    class="c0 variant-default"
+  >
+    Chip
+  </button>
+</div>
+`;

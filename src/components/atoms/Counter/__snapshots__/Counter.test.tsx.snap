@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter renders correctly 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  color: #979797;
+}
+
+.c0 span {
+  color: #333333;
+}
+
+<div
+  class="c0"
+  font-size="1.6rem"
+  max="100"
+>
+  0
+  <span>
+    /
+    100
+  </span>
+</div>
+`;

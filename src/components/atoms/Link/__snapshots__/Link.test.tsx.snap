@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+.c0.variant-link {
+  font-size: 1.6rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.c0.variant-link:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c0.variant-link:focus-visible {
+  outline: solid 2px #018476;
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.c0.variant-button {
+  background: #1F51FF;
+  border-radius: 0.8rem;
+  border: 2px solid #EEEEEF;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  min-width: 18rem;
+  padding: 1.8rem 3.2rem;
+  text-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  white-space: nowrap;
+  line-height: 1;
+  font-size: 1.6rem;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0.variant-button:hover,
+.c0.variant-button:hover:not([disabled]) {
+  background: #0000FF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0.variant-button.secondary {
+  background: #ffffff;
+  border: 2px solid #585858;
+  border-radius: 6px;
+  color: #585858;
+  text-shadow: none;
+}
+
+.c0.variant-button.secondary:hover {
+  background: #ffffff !important;
+  border: 2px solid #000000;
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0.variant-button.icon {
+  background: none;
+  border: none;
+  padding: 0.8rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  min-width: 0;
+  text-shadow: none;
+}
+
+.c0.variant-button.icon:hover {
+  background: none;
+}
+
+.c0.variant-button.icon:focus {
+  outline-color: #00594C;
+}
+
+.c0.variant-button.btn-medium {
+  font-size: 1.6rem;
+  min-width: 16rem;
+  padding: 1.2rem 2.4rem;
+}
+
+.c0.variant-button.btn-small {
+  font-size: 1.4rem;
+  min-width: 15rem;
+  padding: 0.8rem 2.4rem;
+}
+
+.c0.variant-button.block {
+  display: block;
+}
+
+.c0.variant-button.block {
+  width: 100%;
+}
+
+.c0.variant-button[disabled] {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div>
+  <a
+    class="c0 variant-link"
+  >
+    Link Text
+  </a>
+</div>
+`;

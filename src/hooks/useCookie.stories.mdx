@@ -1,0 +1,20 @@
+<!-- useCookie.stories.mdx -->
+
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Hooks/useCookie" />
+
+# useCookie
+
+The `useCookie` hook follows the same API as React's native `useState` hook:
+
+```jsx
+const [value, setValue] = useCookie('cookieName', 'defaultValue');
+
+return (
+	<div>
+		<p>Cookie value: {value}</p>
+		<button onClick={() => setValue('newValue')}>Set cookie value</button>
+	</div>
+);
+```
